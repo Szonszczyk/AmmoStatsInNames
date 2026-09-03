@@ -12,7 +12,7 @@ public record ModMetadata : IModMetadata
     public SemanticVersioning.Range SptVersion { get; init; } = new("~4.1.3");
     public List<string>? Incompatibilities { get; init; } = [];
     public Dictionary<string, SemanticVersioning.Range>? ModDependencies { get; init; } = [];
-    public string? Url { get; init; } = "";
+    public string? Url { get; init; } = "https://github.com/Szonszczyk/AmmoStatsInNames";
     public string License { get; init; } = "MIT";
     public bool HasPrepatcher { get; init; } = false;
 }

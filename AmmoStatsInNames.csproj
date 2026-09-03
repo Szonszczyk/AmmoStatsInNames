@@ -31,7 +31,7 @@
       <ModName>$(AssemblyName)</ModName>
       <ZipFileName>$(ModName).zip</ZipFileName>
       <TempPackageDir>$(ProjectDir)obj\Package</TempPackageDir>
-      <ModPackageDir>$(TempPackageDir)\SPT\user\mods\$(ModName)</ModPackageDir>
+      <ModPackageDir>$(TempPackageDir)\SPT_Runtime\user\mods\$(ModName)</ModPackageDir>
     </PropertyGroup>
     <Message Text="--- Starting Mod packaging for distribution ---" Importance="high" />
     <RemoveDir Directories="$(TempPackageDir)" />

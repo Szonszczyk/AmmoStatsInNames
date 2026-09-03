@@ -18,7 +18,6 @@
   "StatsToAddBuckshot": "({PenetrationPower}/{Damage}x{ProjectileCount})",
   "StatsToAddGrenadeRound": "({PenetrationPower}/{Damage}/{FuzeArmTimeSec}s)",
 
-
   // If statistics should be added before the bullet/box name
   // If true, this will sort all bullets in flea market by their stats
   "StatsBeforeName": true,
