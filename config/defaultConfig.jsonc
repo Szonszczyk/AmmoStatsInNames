@@ -1,0 +1,28 @@
+{
+  // Configuration for Szonszczyk's Ammo Stats In Names
+
+  // This mod is recreation of "Ammo Stats" mod by Mattdokn
+
+  // You can set what stats are added per category item
+  // Use properties from https://db.sp-tushonka.com
+  // Stat names that you can use:
+  // - PenetrationPower: penetration value (rounded to a whole number)
+  // - Damage: damage value (rounded to a whole number)
+  // - InitialSpeed: default velocity of bullet
+  // - ProjectileCount: how many projectiles are fired when bullet is buckshot
+  // - FuzeArmTimeSec: how many seconds needs to pass to grenade to arm
+  // - MinExplosionDistance/MaxExplosionDistance: effective distance of bullet explosion
+  // - MaxFragmentsCount: how many fragments are spawning on explosion
+
+  "StatsToAdd": "({PenetrationPower}/{Damage})",
+  "StatsToAddBuckshot": "({PenetrationPower}/{Damage}x{ProjectileCount})",
+  "StatsToAddGrenadeRound": "({PenetrationPower}/{Damage}/{FuzeArmTimeSec}s)",
+
+
+  // If statistics should be added before the bullet/box name
+  // If true, this will sort all bullets in flea market by their stats
+  "StatsBeforeName": true,
+
+  // To pad a numbers, for example, if padding is X, numbers with less than X characters will have leading 0 for each missing character
+  "PaddingLength": 2
+}

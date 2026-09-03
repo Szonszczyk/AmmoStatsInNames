@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "AmmoStatsInNames": {
+      "commandName": "Project"
+    },
+    "SPT 4.1": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Games\\SPT 4.1\\SPT_Runtime\\SPT.Server.exe",
+      "workingDirectory": "C:\\Games\\SPT 4.1\\SPT_Runtime\\"
+    }
+  }
+}
