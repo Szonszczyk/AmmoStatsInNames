@@ -1,12 +1,17 @@
 # Szonszczyk - Ammo Stats In Names
 
-Ammo Stats In Names adds a configurable statistics to names of bullets and bullet boxes allowing for easier identifying of strong bullets and easy flea market sorting
+See an ammo round’s important stats before you even inspect it!
+
+Ammo Stats In Names adds configurable stats directly to compatible ammunition and ammo-box names. Put penetration, damage, projectile count, and more where you need them—then quickly compare rounds and sort the flea market by the values that matter to you
 
 ## Features
 
-- Add configurable statistics of a bullet, different for normal, buckshot and grenade rounds
-- Can be added at the start or end of the bullet name
-- Works with all game languages
+- Adds configurable stats to bullet, buckshot, grenade-round, and compatible ammo-box names
+- Supports all bullet properties
+- Uses separate formatting for standard rounds, buckshot, and grenade rounds
+- Places stats before or after the original item name
+- Supports every in-game language
+- Optional number padding keeps values aligned and makes flea-market sorting more useful
 
 ## Compatibility
 
